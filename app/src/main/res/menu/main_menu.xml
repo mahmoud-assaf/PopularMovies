@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_top_rated"
+        android:icon="@drawable/ic_top_rated"
+        android:title="@string/top_rated_menu"
+        app:showAsAction="never|withText" />
+    <item
+        android:id="@+id/menu_popular"
+        android:icon="@drawable/ic_popularity"
+        android:title="@string/most_popular_menu"
+        app:showAsAction="never|withText" />
+    <item
+        android:id="@+id/menu_show_favorites"
+        android:icon="@drawable/ic_favorites"
+        android:title="@string/my_favorites_menu"
+        app:showAsAction="ifRoom|withText" />
+</menu>
